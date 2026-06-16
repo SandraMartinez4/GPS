@@ -1,4 +1,4 @@
-﻿import requests
+import requests
 from functools import lru_cache
 
 SESSION = requests.Session()
@@ -171,9 +171,7 @@ def obtener_lugares_por_ruta(geometria, max_puntos=3):
 
 
 def obtener_rutas_osrm(origen_coord, destino_coord):
-    """
-    Pide rutas a OSRM con alternativas y devuelve geometrías y datos.
-    """
+    
     lon_origen, lat_origen = origen_coord[1], origen_coord[0]
     lon_destino, lat_destino = destino_coord[1], destino_coord[0]
 
