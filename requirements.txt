@@ -1,5 +1,6 @@
 Flask==2.3.3
 requests==2.31.0
 networkx==3.2.1
+gunicorn==23.0.0
 # OSMnx es opcional. Si falla la instalación, el proyecto usa grafo local.
 # Para instalarlo intenta: pip install osmnx
